@@ -9,20 +9,76 @@
 <body>
     <h1>Departments</h1>
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search for departments..." onkeyup="searchTable('department-table-body')">
+        <label for="searchInput">Search for departments or contacts:</label>
+        <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchTable('department-table-body')">
     </div>
     <table>
         <thead>
             <tr>
                 <th>Department</th>
+                <th>Subcategory</th>
+                <th>Name</th>
                 <th>Contact Number</th>
             </tr>
         </thead>
         <tbody id="department-table-body">
-            <tr>
-                <td>IT Department</td>
-                <td>1507/1518/1519</td>
-            </tr>
+           
+            <!-- Recoveries -->
+            <tr><td rowspan="6">Recoveries</td><td>-</td><td>Mr. Asela Liyanage</td><td>1713</td></tr>
+            <tr><td>-</td><td>Mr. Ruwan Piyadasa</td><td>1758</td></tr>
+            <tr><td>-</td><td>Ms. Fareesha Nayan (sec)</td><td>1790</td></tr>
+            <tr><td>-</td><td>Ms. Chathuri Abayawickrama</td><td>1644</td></tr>
+            <tr><td>-</td><td>Ms. Nadeesha</td><td>1544</td></tr>
+            <tr><td>-</td><td>Mr. Lakmal</td><td>1637</td></tr>
+
+            <!-- Pre-Legal Unit -->
+            <tr><td rowspan="4">Pre-Legal Unit</td><td>-</td><td>Ms. Gayathri</td><td>1791</td></tr>
+            <tr><td>-</td><td>Ms. Tharushi</td><td>1791</td></tr>
+            <tr><td>-</td><td>Mr. Avalon</td><td>1796</td></tr>
+            <tr><td>-</td><td>Mr. Ranil Wishwa</td><td>1796</td></tr>
+
+            <!-- Outsource Operations Unit -->
+            <tr><td rowspan="8">Outsource Operations Unit</td><td>-</td><td>Ms. Samangi</td><td>1730</td></tr>
+            <tr><td>-</td><td>Mr. Leonard</td><td>1586</td></tr>
+            <tr><td>-</td><td>Ms. Aroshini</td><td>1715</td></tr>
+            <tr><td>-</td><td>Ms. Thilani</td><td>1715</td></tr>
+            <tr><td>-</td><td>Ms. Shalini</td><td>1594</td></tr>
+            <tr><td>-</td><td>Ms. Nishani</td><td>1594</td></tr>
+            <tr><td>-</td><td>Mr. Yasith</td><td>1589</td></tr>
+
+            <!-- MIS -->
+            <tr><td rowspan="4">MIS</td><td>-</td><td>Mr. Dharshana Maddumabandara</td><td>1574</td></tr>
+            <tr><td>-</td><td>Mr. Sameera Sampath</td><td>1334</td></tr>
+            <tr><td>-</td><td>Ms. Chathuri Ranathunga</td><td>1639</td></tr>
+            <tr><td>-</td><td>Ms. Curi</td><td>1636</td></tr>
+
+            <!-- Yard Operations -->
+            <tr><td rowspan="2">Yard Operations</td><td>-</td><td>Mr. Darshana Disantha</td><td>1593</td></tr>
+            <tr><td>-</td><td>Mr. Samansiri</td><td>1593</td></tr>
+
+            <!-- Recovery Officers -->
+            <tr><td rowspan="15">Recovery Officers</td><td>-</td><td>Mr. Viraj</td><td>1795</td></tr>
+            <tr><td>-</td><td>Mr. Avantha</td><td>1572</td></tr>
+            <tr><td>-</td><td>Mr. Namal</td><td>1597</td></tr>
+            <tr><td>-</td><td>Mr. Udaya</td><td>1640</td></tr>
+            <tr><td>-</td><td>Mr. Priyantha</td><td>1333</td></tr>
+            <tr><td>-</td><td>Mr. Chamara</td><td>1595</td></tr>
+            <tr><td>-</td><td>Mr. Sudesh</td><td>1576</td></tr>
+            <tr><td>-</td><td>Mr. Chandana</td><td>1576</td></tr>
+            <tr><td>-</td><td>Mr. Rajitha</td><td>1595</td></tr>
+            <tr><td>-</td><td>Mr. Jupiter</td><td>1581</td></tr>
+            <tr><td>-</td><td>Mr. Praneeth</td><td>1597</td></tr>
+            <tr><td>-</td><td>Mr. Brian</td><td>1597</td></tr>
+            <tr><td>-</td><td>Mr. Gayan Sanjaya</td><td>1332</td></tr>
+            <tr><td>-</td><td>Mr. Kapila</td><td>1332</td></tr>
+            <tr><td>-</td><td>Mr. Romesh</td><td>1331</td></tr>
+
+            <!-- Add Other Departments Here -->
+
+            <!-- Example structure: -->
+
+            <!-- <tr><td rowspan="NUM_OF_PEOPLE">DEPARTMENT_NAME</td><td>SUBCATEGORY</td><td>NAME</td><td>CONTACT</td></tr> -->
+
         </tbody>
     </table>
     <a href="index.html" class="back-button">Back to Home</a>
